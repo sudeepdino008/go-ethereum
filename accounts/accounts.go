@@ -42,6 +42,9 @@ const (
 	MimetypeTextPlain         = "text/plain"
 )
 
+
+// why does geth provide a wallet interface? 
+// - it provides services for it  (geth accounts ...)
 // Wallet represents a software or hardware wallet that might contain one or more
 // accounts (derived from the same seed).
 type Wallet interface {
